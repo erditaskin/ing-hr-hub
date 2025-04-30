@@ -1,0 +1,201 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "user": "User",
+    "dashboard": "Dashboard",
+    "export": "Export",
+    "refresh": "Refresh",
+    "menu": "Menu",
+    "button": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "confirm": "Confirm"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "table": {
+      "noData": {
+        "title": "No Data",
+        "message": "No Data"
+      },
+      "columns": {
+        "visibility": {
+          "title": "Visible Columns"
+        }
+      },
+      "filter": {
+        "by": "Filter by: ",
+        "placeholder": "Filter...",
+        "all": "All",
+        "apply": "Apply Filter",
+        "clear": "Clear Filter"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "items_per_page": "Rows per page:",
+        "info": "{start}-{end} / {total} (Page {current} / {total_pages})",
+        "info_empty": "0-0 / 0 (Page 0 / 0)",
+        "page": "Page"
+      },
+      "no_data": {
+        "empty": {
+          "title": "No Data",
+          "message": "Add data to get started"
+        },
+        "filtered": {
+          "title": "No matching records",
+          "message": "Adjust filters to find what you're looking for"
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "title": {
+      "main": "Dashboard"
+    }
+  },
+  "employees": {
+    "title": {
+      "main": "Employee List",
+      "create": "Create Employee"
+    },
+    "button": {
+      "create": "Create New Employee",
+      "dev": {
+        "add60MockEmployees": "Add 60 Mock Employees",
+        "resetVisibleColumns": "Reset Visible Columns",
+        "resetPagination": "Reset Pagination",
+        "resetFilters": "Reset Filters",
+        "resetData": "Reset Data"
+      }
+    },
+    "columns": {
+      "name": {
+        "title": "Name"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "phoneNumber": {
+        "title": "Phone Number"
+      },
+      "dateOfEmployment": {
+        "title": "Start Date"
+      },
+      "dateOfBirth": {
+        "title": "Date of Birth"
+      },
+      "position": {
+        "title": "Position",
+        "options": {
+          "junior": "Junior",
+          "medior": "Medior",
+          "senior": "Senior"
+        }
+      },
+      "department": {
+        "title": "Department",
+        "options": {
+          "analytics": "Analytics",
+          "tech": "Technology"
+        }
+      },
+      "actions": {
+        "title": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure you want to delete this employee?"
+      }
+    }
+  },
+  "employee": {
+    "title": {
+      "create": "Add Employee",
+      "edit": "Edit Employee"
+    },
+    "messages": {
+      "createSuccess": "Employee created successfully",
+      "updateSuccess": "Employee updated successfully"
+    },
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter first name",
+        "error": {
+          "required": "First name is required"
+        }
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter last name",
+        "error": {
+          "required": "Last name is required"
+        }
+      },
+      "dateOfEmployment": {
+        "label": "Start Date",
+        "placeholder": "Select start date",
+        "error": {
+          "required": "Start date is required"
+        }
+      },
+      "dateOfBirth": {
+        "label": "Date of Birth",
+        "placeholder": "Select date of birth",
+        "error": {
+          "required": "Date of birth is required"
+        }
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter phone number",
+        "error": {
+          "required": "Phone number is required",
+          "invalid": "Please enter a valid phone number"
+        }
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter email address",
+        "error": {
+          "required": "Email is required",
+          "invalid": "Please enter a valid email address"
+        }
+      },
+      "department": {
+        "label": "Department",
+        "placeholder": "Select department",
+        "error": {
+          "required": "Department is required"
+        },
+        "options": {
+          "analytics": "Analytics",
+          "tech": "Technology"
+        }
+      },
+      "position": {
+        "label": "Position",
+        "placeholder": "Select position",
+        "error": {
+          "required": "Position is required"
+        },
+        "options": {
+          "junior": "Junior",
+          "medior": "Medior",
+          "senior": "Senior"
+        }
+      }
+    }
+  }
+}

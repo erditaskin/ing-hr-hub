@@ -1,0 +1,47 @@
+{
+  "name": "ing-hr-hub",
+  "version": "1.0.0",
+  "description": "A Lit Element based web application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "validate": "npm run lint && npm run format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lit",
+    "webcomponents",
+    "lit-element"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
+    "@shoelace-style/shoelace": "^2.20.1",
+    "@vaadin/router": "^2.0.0",
+    "lit": "^3.1.0",
+    "redux-persist": "^6.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@types/node": "^20.11.24",
+    "@types/redux-persist": "^4.0.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@webcomponents/webcomponentsjs": "^2.8.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-lit": "^1.8.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^3.1.2"
+  }
+}

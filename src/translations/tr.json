@@ -1,0 +1,201 @@
+{
+  "common": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "user": "Kullanıcı",
+    "dashboard": "Panel",
+    "export": "Dışa Aktar",
+    "refresh": "Yenile",
+    "menu": "Menü",
+    "button": {
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "delete": "Sil",
+      "edit": "Düzenle",
+      "confirm": "Onayla"
+    },
+    "actions": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "table": {
+      "noData": {
+        "title": "Veri yok",
+        "message": "Veri yok"
+      },
+      "columns": {
+        "visibility": {
+          "title": "Görünür Kolonlar"
+        }
+      },
+      "filter": {
+        "by": "Filtrele: ",
+        "placeholder": "Filtrele...",
+        "all": "Tümü",
+        "apply": "Filtreyi Uygula",
+        "clear": "Filtreyi Temizle"
+      },
+      "pagination": {
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "items_per_page": "Sayfa başına satır:",
+        "info": "{start}-{end} / {total} (Sayfa {current} / {total_pages})",
+        "info_empty": "0-0 / 0 (Sayfa 0 / 0)",
+        "page": "Sayfa"
+      },
+      "no_data": {
+        "empty": {
+          "title": "Veri yok",
+          "message": "Başlamak için veri ekleyin"
+        },
+        "filtered": {
+          "title": "Eşleşen kayıt yok",
+          "message": "Aradığınızı bulmak için filtreleri düzenleyin"
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "title": {
+      "main": "Panel"
+    }
+  },
+  "employees": {
+    "title": {
+      "main": "Çalışan Listesi",
+      "create": "Çalışan Oluştur"
+    },
+    "button": {
+      "create": "Yeni Çalışan Oluştur",
+      "dev": {
+        "add60MockEmployees": "60 Mock Çalışan Ekle",
+        "resetVisibleColumns": "Görünür Kolonları Sıfırla",
+        "resetPagination": "Sayfalama Bilgilerini Sıfırla",
+        "resetFilters": "Filtreleri Sıfırla",
+        "resetData": "Verileri Sıfırla"
+      }
+    },
+    "columns": {
+      "name": {
+        "title": "İsim"
+      },
+      "email": {
+        "title": "E-posta"
+      },
+      "phoneNumber": {
+        "title": "Telefon Numarası"
+      },
+      "dateOfEmployment": {
+        "title": "İşe Başlama"
+      },
+      "dateOfBirth": {
+        "title": "Doğum Tarihi"
+      },
+      "position": {
+        "title": "Pozisyon",
+        "options": {
+          "junior": "Junior",
+          "medior": "Medior",
+          "senior": "Senior"
+        }
+      },
+      "department": {
+        "title": "Departman",
+        "options": {
+          "analytics": "Analitik",
+          "tech": "Teknoloji"
+        }
+      },
+      "actions": {
+        "title": "İşlemler",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "deleteConfirm": "Bu çalışanı silmek istediğinize emin misiniz?"
+      }
+    }
+  },
+  "employee": {
+    "title": {
+      "create": "Çalışan Ekle",
+      "edit": "Çalışan Düzenle"
+    },
+    "messages": {
+      "createSuccess": "Çalışan başarıyla oluşturuldu",
+      "updateSuccess": "Çalışan başarıyla güncellendi"
+    },
+    "fields": {
+      "firstName": {
+        "label": "Ad",
+        "placeholder": "Ad giriniz",
+        "error": {
+          "required": "Ad alanı zorunludur"
+        }
+      },
+      "lastName": {
+        "label": "Soyad",
+        "placeholder": "Soyad giriniz",
+        "error": {
+          "required": "Soyad alanı zorunludur"
+        }
+      },
+      "dateOfEmployment": {
+        "label": "İşe Başlama Tarihi",
+        "placeholder": "İşe başlama tarihi seçiniz",
+        "error": {
+          "required": "İşe başlama tarihi zorunludur"
+        }
+      },
+      "dateOfBirth": {
+        "label": "Doğum Tarihi",
+        "placeholder": "Doğum tarihi seçiniz",
+        "error": {
+          "required": "Doğum tarihi zorunludur"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "placeholder": "Telefon numarası giriniz",
+        "error": {
+          "required": "Telefon numarası zorunludur",
+          "invalid": "Lütfen geçerli bir telefon numarası giriniz"
+        }
+      },
+      "email": {
+        "label": "E-posta Adresi",
+        "placeholder": "E-posta adresi giriniz",
+        "error": {
+          "required": "E-posta alanı zorunludur",
+          "invalid": "Lütfen geçerli bir e-posta adresi giriniz"
+        }
+      },
+      "department": {
+        "label": "Departman",
+        "placeholder": "Departman seçiniz",
+        "error": {
+          "required": "Departman alanı zorunludur"
+        },
+        "options": {
+          "analytics": "Analitik",
+          "tech": "Teknoloji"
+        }
+      },
+      "position": {
+        "label": "Pozisyon",
+        "placeholder": "Pozisyon seçiniz",
+        "error": {
+          "required": "Pozisyon alanı zorunludur"
+        },
+        "options": {
+          "junior": "Junior",
+          "medior": "Medior",
+          "senior": "Senior"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+,_old/
+.history/
+*.d.ts 
