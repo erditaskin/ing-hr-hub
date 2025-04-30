@@ -63,6 +63,40 @@
   "dashboard": {
     "title": {
       "main": "Panel"
+    },
+    "statistics": {
+      "total": {
+        "title": "Toplam Çalışan",
+        "helper": "Tüm departman ve pozisyonlarda çalışan sayısı"
+      },
+      "byPosition": {
+        "title": "Pozisyonlara Göre",
+        "helper": "Farklı pozisyonlarda çalışan dağılımı",
+        "junior": {
+          "title": "Junior",
+          "helper": "2 yıllık deneyimle başlayan çalışanlar"
+        },
+        "medior": {
+          "title": "Medior",
+          "helper": "2-5 yıllık deneyimle başlayan çalışanlar"
+        },
+        "senior": {
+          "title": "Senior",
+          "helper": "5 yıldan fazla deneyimle başlayan çalışanlar"
+        }
+      },
+      "byDepartment": {
+        "title": "Departmanlara Göre",
+        "helper": "Departmanlarda çalışan dağılımı",
+        "tech": {
+          "title": "Teknoloji",
+          "helper": "Yazılım geliştirme ve IT işlemleri"
+        },
+        "analytics": {
+          "title": "Analiz",
+          "helper": "Veri analizi ve iş zekası"
+        }
+      }
     }
   },
   "employees": {

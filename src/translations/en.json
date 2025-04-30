@@ -63,6 +63,40 @@
   "dashboard": {
     "title": {
       "main": "Dashboard"
+    },
+    "statistics": {
+      "total": {
+        "title": "Total Employees",
+        "helper": "Total number of employees across all departments and positions"
+      },
+      "byPosition": {
+        "title": "By Position",
+        "helper": "Employee distribution across different positions",
+        "junior": {
+          "title": "Junior",
+          "helper": "Entry level employees with up to 2 years of experience"
+        },
+        "medior": {
+          "title": "Medior",
+          "helper": "Mid-level employees with 2-5 years of experience"
+        },
+        "senior": {
+          "title": "Senior",
+          "helper": "Senior level employees with 5+ years of experience"
+        }
+      },
+      "byDepartment": {
+        "title": "By Department",
+        "helper": "Employee distribution across departments",
+        "tech": {
+          "title": "Technology",
+          "helper": "Software development and IT operations"
+        },
+        "analytics": {
+          "title": "Analytics",
+          "helper": "Data analysis and business intelligence"
+        }
+      }
     }
   },
   "employees": {

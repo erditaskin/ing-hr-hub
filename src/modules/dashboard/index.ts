@@ -1,14 +1,8 @@
 import { defineModule } from '../../core/utils/module';
-import { DashboardPage } from './pages/DashboardPage';
+import { Dashboard } from './pages/Dashboard';
 import reducers from './reducers';
-const routes = [
-  {
-    path: '/dashboard',
-    component: 'dashboard-page',
-    name: 'dashboard',
-  },
-];
+import routes from './routes';
 
 export default defineModule('Dashboard', { reducers }, routes, {
-  'dashboard-page': DashboardPage,
+  'dashboard-page': Dashboard,
 });
